@@ -3,7 +3,7 @@
 # Time: 2021/06/21
 
 
-# 记载创建好的西瓜数据集，计算信息增益，增益率，基尼指数，为创建决策树做准备
+# 加载创建好的西瓜数据集，计算信息增益，增益率，基尼指数，为创建决策树做准备
 import numpy as np
 
 watermelon = np.genfromtxt('watermelon.txt', delimiter=' ', dtype=str)  # 导入数据时若出现nan，即将dtype设为str，其默认值为float
