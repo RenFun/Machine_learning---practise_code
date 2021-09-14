@@ -3,7 +3,7 @@
 # Time: 2021/06/25
 
 
-# BP算法
+# 标准BP算法，规定迭代次数
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -35,6 +35,7 @@ def bp(x, y):              # x = (x1,x2,...,xd),一共d个输入神经元，y是
     (n, m) = x.shape
     q = n + 1              # 隐层神经元个数 = 输入层神经元个数 + 1
     l = 1                  # 输出层神经元个数 = 1
+    # 这里隐层神经元个数和输出神经元个数的选择根据实际情况可以调整
     # 对阈值和权值进行随机初始化
     value1 = np.random.rand(q)          # q个隐层神经元，value1为1*q的矩阵
     value2 = np.random.rand(l)          # l个输出神经元，value2为1*l的矩阵
@@ -51,7 +52,7 @@ def bp(x, y):              # x = (x1,x2,...,xd),一共d个输入神经元，y是
     error_v = np.zeros((n, q))
     error_value1 = np.zeros(q)
     # 向前传播 + 反向传播误差
-    while (num > 0):
+    while (num > 0):                            # 迭代结束条件是迭代num次，也可以有其他结束条件，例如训练误差达到一个很小的值
         for i in range(10):                     # n个样本，每进行一个样本就更新一次参数，这是标准BP算法
             eh = []                             # 每次循环前都要初始化eh和gj
             gj = []

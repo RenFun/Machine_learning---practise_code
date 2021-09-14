@@ -56,7 +56,8 @@ def gradient():
 for j in range(num):
     w_gradient = 0
     b_gradient = 0
-    w_gradient,b_gradient = gradient()
+    w_gradient,b_gradient = gradient()          # 每次迭代都用gradient（）函数计算梯度
+    # ？
     w = w - (lr * w_gradient)
     b = b - (lr * b_gradient)
     if j % 100 == 0:                            # 每100次输出一次当前的w，b以及loss值
