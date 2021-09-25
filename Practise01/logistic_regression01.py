@@ -4,28 +4,22 @@
 
 
 # 对数几率回归：用于处理二分类问题
-# 利用sklearn库实现
-
+# 利用sklearn库实现，数据集为自己创建的二分类数据集
 import matplotlib.pyplot as plt
-from sklearn import datasets
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-
-#
-# # 加载数据鸾尾花数据集：一共150个样本，3种类别，每个类别50个样本，每个样本有4个属性描述，萼片和花瓣的长与宽，共4个属性
-# # 样本0-49为类别0，样本50-99为类别1，样本100-149为类别2
-# iris_x, iris_y = datasets.load_iris(return_X_y=True)
-#
-
-# 利用sklearn库创建数据集
 from sklearn.datasets import make_classification
-# make_classification()函数返回两个参数X和Y
-X, Y = make_classification(n_samples=200, n_features=2, n_redundant=0, n_classes=2, n_clusters_per_class=1)
+
+
+# 生成数据集，200个样本，每个样本两个属性，一共两个类别
 # 主要参数如例，其余参数均为默认值。这里要注意n_redundant的默认值为2，若不明确写出，n_features的值必须大于2
-print(X.shape, Y.shape)     # X形式为（样本数量，每个样本的特征数）  Y形式为（样本数量，）
-print(X)                    # X的内容为（特征1， 特征2， ... ， 特征n_features）
-print(Y)                    # Y内容为：每个样本的类别（0或1）
-# 作图:以返回的X为依据
+X, Y = make_classification(n_samples=200, n_features=2, n_redundant=0, n_classes=2, n_clusters_per_class=1)
+
+# print(X.shape, Y.shape)     # X形式为（样本数量，每个样本的特征数）  Y形式为（样本数量，）
+# print(X)                    # X的内容为（特征1， 特征2， ... ， 特征n_features）
+# print(Y)                    # Y内容为：每个样本的类别（0或1）
+# 绘制图像1
+plt.title("样本散列图")
 plt.scatter(X[:, 0], X[:, 1], c=Y)          # scatter(x,Y,c),其中x和Y为点的位置; c为颜色,c=Y意味着用两种颜色表示两个类
 plt.show()
 
