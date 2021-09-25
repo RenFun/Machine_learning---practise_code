@@ -40,10 +40,11 @@ plt.title("训练集散列图和拟合的模型")
 plt.xlabel("训练集的x坐标")
 plt.ylabel("训练集的y坐标")
 # 绘制训练集散列图
-plt.scatter(x_train, y_train)
+plt.scatter(x_train, y_train, label="训练集数据")
 # plt.show()
 # 绘制拟合的线性模型曲线
-plt.plot(x_train, lr.coef_ * x_train + lr.intercept_, 'r')
+plt.plot(x_train, lr.coef_ * x_train + lr.intercept_, 'r', label="拟合曲线")
+plt.legend(loc='upper left')
 plt.show()
 
 # 绘制图像2

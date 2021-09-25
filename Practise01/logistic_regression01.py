@@ -6,10 +6,16 @@
 # 对数几率回归：用于处理二分类问题
 # 利用sklearn库实现
 
-
 import matplotlib.pyplot as plt
+from sklearn import datasets
+from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-# train_test_split 是sklearn中用于划分数据集，即将原始数据集划分成测试集和训练集两部分的函数
+
+#
+# # 加载数据鸾尾花数据集：一共150个样本，3种类别，每个类别50个样本，每个样本有4个属性描述，萼片和花瓣的长与宽，共4个属性
+# # 样本0-49为类别0，样本50-99为类别1，样本100-149为类别2
+# iris_x, iris_y = datasets.load_iris(return_X_y=True)
+#
 
 # 利用sklearn库创建数据集
 from sklearn.datasets import make_classification
@@ -24,7 +30,7 @@ plt.scatter(X[:, 0], X[:, 1], c=Y)          # scatter(x,Y,c),其中x和Y为点�
 plt.show()
 
 # 利用sklearn库完成对数几率回归
-from sklearn.linear_model import LogisticRegression
+
 lr = LogisticRegression()
 # 将数据集进行划分，分成训练集和测试集，其比例为4：1.
 x_trian, x_test, y_trian, y_test = train_test_split(X, Y, test_size=0.25)
