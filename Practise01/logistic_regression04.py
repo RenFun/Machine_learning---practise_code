@@ -50,7 +50,7 @@ plt.legend(loc='upper left')
 plt.show()
 
 # 绘制图像2
-plt.title("分类结果图")
+plt.title("测试集分类结果图")
 plt.xlabel("花萼长度")
 plt.ylabel("花萼宽度")
 # 横纵坐标轴采样的数值，数值的大小会影响分类的边界状况
@@ -64,18 +64,25 @@ x, y = np.meshgrid(t1, t2)
 x_test = np.stack((x.flat, y.flat), axis=1)
 # 颜色列表
 cm_light = mpl.colors.ListedColormap(['#77E0A0', '#FF8080', '#A0A0FF'])
+cm_dark = mpl.colors.ListedColormap(['g', 'r', 'b'])
 # 所有采样点的预测值
 y_hat = lr.predict(x_test)
 y_hat = y_hat.reshape(x.shape)                 # 使之与输入的形状相同
 # 传入颜色列表并展现分类的边界
 plt.pcolormesh(x, y, y_hat, cmap=cm_light)
 # plt.scatter(x_coordinate, y_coordinate, cmap=cm_dark)
-plt.scatter(x_coordinate[:50], y_coordinate[:50], c='green', marker='s', label='样本0')
-plt.scatter(x_coordinate[50:100], y_coordinate[50:100], c='red', marker='o', label='样本1')
-plt.scatter(x_coordinate[100:150], y_coordinate[100:150], c='blue', marker='v', label='样本2')
+iris_x_test_coordinate1 = iris_x_test[:, 0]
+iris_x_test_coordinate2 = iris_x_test[:, 1]
+# category = ['样本0', '样本1', '样本2']
+# markers = ['s', 'o', 'v']
+plt.scatter(iris_x_test_coordinate1, iris_x_test_coordinate2, c=iris_y_test.ravel(), cmap=cm_dark)
+# plt.scatter(iris_x_test_coordinate1, iris_x_test_coordinate2, cmap=cm_light)
+# plt.scatter(x_coordinate[:50], y_coordinate[:50], c='green', marker='s', label='样本0')
+# plt.scatter(x_coordinate[50:100], y_coordinate[50:100], c='red', marker='o', label='样本1')
+# plt.scatter(x_coordinate[100:150], y_coordinate[100:150], c='blue', marker='v', label='样本2')
 plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
-plt.legend(loc='upper left')
+# plt.legend(loc='upper left')
 plt.show()
 
 # 多分类模型的性能指标：准确率
