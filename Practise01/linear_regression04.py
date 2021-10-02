@@ -35,7 +35,8 @@ print('截距：', lr.intercept_)
 y_predict = lr.predict(x_test)
 
 # 绘制图像1
-plt.rcParams['font.sans-serif'] = ['SimHei']     # 用来正常显示中文，设置字体为黑体
+# 用来正常显示中文，设置字体为黑体
+plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.title("训练集散列图和拟合的模型")
 plt.xlabel("训练集的x坐标")
 plt.ylabel("训练集的y坐标")
