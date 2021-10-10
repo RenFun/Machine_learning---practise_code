@@ -11,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Practise01$decision_tree01.coverage" NAME="decision_tree01 Coverage Results" MODIFIED="1624512223123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$logistics_regression02.coverage" NAME="logistics_regression02 Coverage Results" MODIFIED="1623310872378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Practise01$decision_tree04.coverage" NAME="decision_tree04 Coverage Results" MODIFIED="1633701334894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Practise01$decision_tree04.coverage" NAME="decision_tree04 Coverage Results" MODIFIED="1633860665266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$logistic_regression03.coverage" NAME="logistic_regression03 Coverage Results" MODIFIED="1632494791849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$linear_regression05.coverage" NAME="linear_regression05 Coverage Results" MODIFIED="1632324859942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$decision_tree02.coverage" NAME="decision_tree02 Coverage Results" MODIFIED="1625215612928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -26,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Practise01$linear_regression03.coverage" NAME="linear_regression03 Coverage Results" MODIFIED="1631510832549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$back_propagation01.coverage" NAME="back_propagation01 Coverage Results" MODIFIED="1632569810287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$generate_datasets.coverage" NAME="generate_datasets Coverage Results" MODIFIED="1622997084002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Practise01$linear_regression01.coverage" NAME="linear_regression01 Coverage Results" MODIFIED="1633163033325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Practise01$linear_regression01.coverage" NAME="linear_regression01 Coverage Results" MODIFIED="1633861819633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$decesion_tree02.coverage" NAME="decesion_tree02 Coverage Results" MODIFIED="1624528509970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$logistic_regression02.coverage" NAME="logistic_regression02 Coverage Results" MODIFIED="1633163325900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practise01$demo.coverage" NAME="demo Coverage Results" MODIFIED="1622888224527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -50,13 +50,13 @@
     <session id="-1684005956">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="3" />
-          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.30" value="4" />
@@ -72,23 +72,25 @@
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="16" />
+          <entry key="dot" value="1" />
+          <entry key="jpeg" value="4" />
           <entry key="png" value="4" />
-          <entry key="py" value="341" />
+          <entry key="py" value="346" />
           <entry key="pyi" value="2" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="4" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="341" />
+          <entry key="Image" value="8" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="346" />
           <entry key="PythonStub" value="2" />
         </counts>
       </usages-collector>
@@ -97,24 +99,24 @@
           <entry key="Python Console" value="11" />
           <entry key="csv" value="3" />
           <entry key="dummy" value="24" />
-          <entry key="py" value="27111" />
+          <entry key="py" value="28284" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="27122" />
+          <entry key="Python" value="28295" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logistic_regression04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-825">
+            <state relative-caret-position="-1217">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#98#129#0" expanded="true" />
@@ -124,48 +126,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linear_regression05.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-425">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logistic_regression01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linear_regression01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linear_regression04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decision_tree04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="692">
+              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding>
                 <element signature="e#241#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linear_regression01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2132">
+              <caret line="118" column="26" lean-forward="true" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+              <folding>
+                <element signature="e#150#223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -225,8 +203,8 @@
         <option value="$PROJECT_DIR$/logistic_regression01.py" />
         <option value="$PROJECT_DIR$/logistic_regression04.py" />
         <option value="$PROJECT_DIR$/linear_regression04.py" />
-        <option value="$PROJECT_DIR$/linear_regression01.py" />
         <option value="$PROJECT_DIR$/decision_tree04.py" />
+        <option value="$PROJECT_DIR$/linear_regression01.py" />
       </list>
     </option>
   </component>
@@ -280,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decision_tree04">
+  <component name="RunManager" selected="Python.linear_regression01">
     <configuration name="decision_tree04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Practise01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -400,9 +378,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linear_regression01" />
         <item itemvalue="Python.decision_tree04" />
         <item itemvalue="Python.logistic_regression02" />
-        <item itemvalue="Python.linear_regression01" />
         <item itemvalue="Python.logistic_regression04" />
         <item itemvalue="Python.logistic_regression01" />
       </list>
@@ -433,12 +411,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1997319" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.22521247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.2266289" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.42634562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,7 +430,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.5147453" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.42627347" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
     <layout-to-restore>
@@ -497,8 +475,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16964.033/support_vector_mechine.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16964.5968/Kernel_logarithmic_regression.py" />
     <entry file="file://$USER_HOME$/Desktop/研究生学习/Github 资料/machine-learning-code-master/basic_algorithm/svd/svd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-750">
@@ -672,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="2366" column="4" selection-start-line="2366" selection-start-column="4" selection-end-line="2366" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linear_regression03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -744,23 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/Lib/site-packages/sklearn/tree/_export.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="661" column="4" selection-start-line="661" selection-start-column="4" selection-end-line="661" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision_tree04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="e#241#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logistic_regression03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -768,41 +720,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_regression04.py">
+    <entry file="file://$PROJECT_DIR$/iris.dot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/sklearn/tree/_export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="25">
+          <caret line="661" column="4" selection-start-line="661" selection-start-column="4" selection-end-line="661" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logistic_regression04.py">
+    <entry file="file://$PROJECT_DIR$/iris.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_regression04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#98#129#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linear_regression05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="-892">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic_regression01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="-453">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-654">
+          <caret line="1605" column="4" selection-start-line="1605" selection-start-column="4" selection-end-line="1605" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_tree04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#241#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linear_regression01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
+        <state relative-caret-position="2132">
+          <caret line="118" column="26" lean-forward="true" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+          <folding>
+            <element signature="e#150#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1217">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#98#129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

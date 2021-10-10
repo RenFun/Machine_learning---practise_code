@@ -84,6 +84,7 @@ predict_train = w * train_x + b
 # predict_test为测试集上的预测值
 predict_test = w * test_x + b
 
+# print(np.array(loss_list).shape)
 # 绘制图像1
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
@@ -97,23 +98,27 @@ plt.show()
 
 # 绘制图像2
 plt.title("损失函数图")
-plt.xlabel("梯度更新次数（*40）")
+plt.xlabel("梯度更新次数")
 plt.ylabel("梯度值")
-# 把x轴的刻度间隔设置为5，并存在变量里
-x_major_locator = MultipleLocator(5)
-# 把y轴的刻度间隔设置为5，并存在变量里
-y_major_locator = MultipleLocator(5)
-# ax为两条坐标轴的实例,plt.gca()是获取当前坐标
-ax = plt.gca()
-# 把x轴的主刻度设置为1的倍数
-ax.xaxis.set_major_locator(x_major_locator)
-# 把y轴的主刻度设置为5的倍数
-ax.yaxis.set_major_locator(y_major_locator)
-# 把x轴的刻度范围设置为-1到50，因为1不满一个刻度间隔(5)，所以数字不会显示出来，但是能看到一点空白
-plt.xlim(-1, 50)
-# 把y轴的刻度范围设置为-1到55，同理，-1不会标出来，但是能看到一点空白
-plt.ylim(-1, 55)
-plt.plot(loss_list)
+# # 把x轴的刻度间隔设置为5，并存在变量里
+# x_major_locator = MultipleLocator(5)
+# # 把y轴的刻度间隔设置为5，并存在变量里
+# y_major_locator = MultipleLocator(5)
+# # ax为两条坐标轴的实例,plt.gca()是获取当前坐标
+# ax = plt.gca()
+# # 把x轴的主刻度设置为1的倍数
+# ax.xaxis.set_major_locator(x_major_locator)
+# # 把y轴的主刻度设置为5的倍数
+# ax.yaxis.set_major_locator(y_major_locator)
+# # 把x轴的刻度范围设置为-1到50，因为1不满一个刻度间隔(5)，所以数字不会显示出来，但是能看到一点空白
+# plt.xlim(-1, 50)
+# # 把y轴的刻度范围设置为-1到55，同理，-1不会标出来，但是能看到一点空白
+# plt.ylim(-1, 55)
+# 数组 + 1 ：数组中每个元素都+1
+x_locator = np.arange(0, len(loss_list)) + 1
+x_locator = x_locator * 40
+plt.plot(x_locator, loss_list, label='损失曲线')
+plt.legend(loc='upper right')
 plt.show()
 
 # 模型的性能指标：均方误差，R指数
