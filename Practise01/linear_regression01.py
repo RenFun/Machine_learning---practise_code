@@ -119,7 +119,9 @@ x_locator = np.arange(0, len(loss_list)) + 1
 x_locator = x_locator * 40
 plt.plot(x_locator, loss_list, label='损失曲线')
 plt.legend(loc='upper right')
+plt.savefig('gradient.svg')
 plt.show()
+
 
 # 模型的性能指标：均方误差，R指数
 print('均方误差: %.2f' % mean_squared_error(test_y, predict_test))

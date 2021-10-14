@@ -43,11 +43,13 @@ plt.rcParams['axes.unicode_minus'] = False            # 用来正常显示负号
 plt.title("鸾尾花样本散列图")
 plt.xlabel("花萼长度")
 plt.ylabel("花萼宽度")
-plt.scatter(x_coordinate[:50], y_coordinate[:50], c='green', marker='s', label='样本0')
-plt.scatter(x_coordinate[50:100], y_coordinate[50:100], c='red', marker='o', label='样本1')
-plt.scatter(x_coordinate[100:150], y_coordinate[100:150], c='blue', marker='v', label='样本2')
+plt.scatter(x_coordinate[:50], y_coordinate[:50], c='green', marker='s', label='类别1')
+plt.scatter(x_coordinate[50:100], y_coordinate[50:100], c='red', marker='o', label='类别2')
+plt.scatter(x_coordinate[100:150], y_coordinate[100:150], c='blue', marker='v', label='类别3')
 plt.legend(loc='upper left')
+plt.savefig('iris_scatter.svg', dpi=300)
 plt.show()
+
 
 # 绘制图像2
 plt.title("测试集分类结果图")
@@ -83,9 +85,12 @@ plt.scatter(iris_x_test_coordinate1, iris_x_test_coordinate2, c=iris_y_test.rave
 plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
 # plt.legend(loc='upper left')
+plt.savefig('logistic_regression04.svg', dpi=300)
 plt.show()
 
-# 多分类模型的性能指标：准确率
+
+
+# 多分类模型的性能指标：1.准确率 2.混淆矩阵
 # 二分类模型的性能指标：1.准确率 2.查准率（precision）、召回率（recall）、P-R曲线、F1 4.ROC曲线、AUC
 print('真实类别：', iris_y_test)
 print('预测类别：', iris_y_predict)
