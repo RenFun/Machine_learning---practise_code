@@ -133,7 +133,7 @@ def plot_matrix(cm, classes, cmap=plt.cm.Blues):
         for j in range(cm.shape[1]):
             if float(cm[i, j] * 100) > 0:
                 ax.text(j, i, format(float(cm[i, j]), '.2f'),
-                        ha="center", va="center",
+                        ha="center", va="center",fontsize=15,
                         color="white" if cm[i, j] > thresh else "black")
     fig.tight_layout()
     plt.xticks(rotation=30)

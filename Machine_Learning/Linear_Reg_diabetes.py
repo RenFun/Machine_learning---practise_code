@@ -63,6 +63,7 @@ plt.scatter(diabetes_y_pred, diabetes_y_pred - diabetes_y_test, c='green', marke
 plt.legend(loc='upper left')
 # y = 0 ，表示残差值为0的位置
 plt.hlines(y=0, xmin=0, xmax=300, linestyles='solid', colors='red')
+plt.grid(b=True, linestyle='--')
 plt.savefig("Linear_Reg_diabetes_residual.svg")
 plt.show()
 

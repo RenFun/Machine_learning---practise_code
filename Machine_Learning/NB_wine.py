@@ -21,10 +21,13 @@ wine_target = wine.target
 feature_name = wine.feature_names
 target_name = wine.target_names
 x_train, x_test, y_train, y_test = train_test_split(wine_data, wine_target, train_size=0.7, random_state=2, stratify=wine_target)
-scaler = StandardScaler()
+# 数据预处理
+# scaler = StandardScaler()
+scaler = MinMaxScaler(feature_range=(0, 1))
 scaler.fit(wine_data)
 x_train = scaler.transform(x_train)
 x_test = scaler.transform(x_test)
+# 实例化
 gnb = GaussianNB()
 gnb.fit(x_train, y_train)
 y_predict = gnb.predict(x_test)
@@ -61,7 +64,7 @@ def plot_matrix(cm, classes, cmap=plt.cm.Blues):
         for j in range(cm.shape[1]):
             if float(cm[i, j] * 100) > 0:
                 ax.text(j, i, format(float(cm[i, j]), '.2f'),
-                        ha="center", va="center",
+                        ha="center", va="center",fontsize=15,
                         color="white" if cm[i, j] > thresh else "black")
     fig.tight_layout()
     plt.xticks(rotation=30)
