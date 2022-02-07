@@ -1,0 +1,6 @@
+1.官网下载graphviz
+2.直接安装并配置环境路径
+3.windows + R 进入dos界面：输入 dot -v 查看版本信息
+		               关注 libdir 文件路径，在此文件内找到gvedit.exe，并发送快捷方式到桌面
+		               打开gvedit.exe，File->open->.dot文件
+	 	               save 可以保存所需格式的图片
